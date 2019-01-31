@@ -23,7 +23,7 @@ python脚本会读取音乐文件里的tag信息, 并与'文件名'中的信息�
 
 <pre><code>sudo apt install python3 python3-dev
 
-\# 安装pip
+# 安装pip
 wget https://bootstrap.pypa.io/get-pip.py -O - | sudo python3
 </code></pre>
 
