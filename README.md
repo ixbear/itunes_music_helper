@@ -22,7 +22,11 @@ python脚本会读取音乐文件里的tag信息, 并与'文件名'中的信息�
 # 准备工作:
 
 <pre><code>sudo apt install python3 python3-dev
+
+\# 安装pip
+wget https://bootstrap.pypa.io/get-pip.py -O - | sudo python3
 </code></pre>
+
 
 \# 安装pytaglib相关依赖. 否则运行pip install pytaglib会报错, centos请安装python-devel和taglib-devel
 \# pytaglib这个包调用了os.fspath()方法, 但该方法从python3.6版本开始引入. 因此需要安装python3.6以上的版本. Ubuntu 18.04自带Python3.6版.
